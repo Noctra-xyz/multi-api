@@ -11,7 +11,7 @@ const options = {
 		tags: [
 			{
 				name: 'Discord',
-				description: 'These require a Discord bot token which you can add using the Authorize button above. Some of the endpoints will not function correctly in this documentation and will require you to test in BotGhost',
+				description: 'These require a Discord bot token which you can add using the Authorize button above.',
 			},
 		],
 		components: {

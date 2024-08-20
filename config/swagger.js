@@ -5,7 +5,7 @@ const options = {
 		openapi: '3.0.0',
 		info: {
 			title: 'Multi-API',
-			description: 'This API is designed to perform a variety of functions in order to assist users in creating or enhancing their commands and events.
+			description: 'This API is designed to perform a variety of functions in order to assist users in creating or enhancing their commands and events.',
 			version: '1.4.2',
 		},
 		tags: [

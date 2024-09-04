@@ -19,10 +19,6 @@ const getSubString = require('./endpoints/getSubString');
 const timestamp = require('./endpoints/timestamp');
 const currencyFormat = require('./endpoints/currencyFormat');
 const convertNum = require('./endpoints/convertNum');
-const transcript = require('./endpoints/transcript');
-const getRoleCount = require('./endpoints/getRoleCount');
-const memberRoles = require('./endpoints/memberRoles');
-const highestRole = require('./endpoints/highestRole');
 const base64 = require('./endpoints/base64');
 
 // POST requests
@@ -31,15 +27,12 @@ app.post('/getlast', getLast);
 app.post('/removelast', removeLast);
 app.post('/getsubstring', getSubString);
 app.post('/timestamp', timestamp);
-app.post('/transcript', transcript);
 app.post('/base64', base64);
 
 // GET requests
-app.get('/getrolecount', getRoleCount);
 app.get('/convertnum', convertNum);
 app.get('/currencyformat', currencyFormat);
-app.get('/memberroles', memberRoles);
-app.get('/highestrole', highestRole);
+
 
 // Use requests
 app.use('/docs', swaggerui.serve, swaggerui.setup(specs));
